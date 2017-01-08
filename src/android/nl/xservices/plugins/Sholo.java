@@ -12,9 +12,9 @@ public class Sholo extends CordovaPlugin {
 
   @Override
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-    Log.d("xap en execute");
+    Log.d("xap","xap en execute");
       if (action.equals("coolMethod2")) {
-        Log.d("xap dentro de equal");
+        Log.d("xap","dentro de equal");
           String message = args.getString(0);
           this.coolMethod2(message, callbackContext);
           return true;
@@ -24,18 +24,18 @@ public class Sholo extends CordovaPlugin {
 
   private void coolMethod2(String message, CallbackContext callbackContext) {
 
-    Log.d("dentro de coolmethod2");
-    Log.d("mensaje "+message);
+    Log.d("xap","dentro de coolmethod2");
+    Log.d("xap","mensaje "+message);
     callbackContext.success(message);
     // PluginResult pr = new PluginResult(PluginResult.Status.OK);
     // pr.setKeepCallback(true);
     // callbackContext.sendPluginResult(pr);
     //
       if (message != null && message.length() > 0) {
-        Log.d("va asuccess");
+        Log.d("xap","va asuccess");
           callbackContext.success(message);
       } else {
-        Log.d("va a error");
+        Log.d("xap","va a error");
           callbackContext.error("Expected one non-empty string argument.");
       }
   }
