@@ -14,4 +14,4 @@ Sholo.install = function () {
   return window.plugins.sholo;
 };
 
-cordova.addConstructor(Sholo.install);ß
+cordova.addConstructor(Sholo.install);
