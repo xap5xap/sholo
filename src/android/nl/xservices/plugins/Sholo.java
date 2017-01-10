@@ -1,5 +1,8 @@
 package nl.xservices.plugins;
 
+
+import android.util.Log;
+
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
