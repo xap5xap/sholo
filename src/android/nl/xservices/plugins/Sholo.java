@@ -47,7 +47,7 @@ public class Sholo extends CordovaPlugin {
 
   private void coolMethod2(String message, CallbackContext callbackContext) {
 
-    Log.d("xap","dentro de coolmethod2 1");
+    Log.d("xap","dentro de coolmethod2 2");
     Log.d("xap","mensaje "+message);
     callbackContext.success(message);
     // PluginResult pr = new PluginResult(PluginResult.Status.OK);
