@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-x-sholo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This plugin allows you to show a Sholo. A Sholo is a little non intrusive buttonless popup which automatically disappears.",
   "cordova": {
     "id": "cordova-plugin-x-sholo",

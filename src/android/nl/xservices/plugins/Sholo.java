@@ -27,11 +27,11 @@ public class Sholo extends CordovaPlugin {
 
     Log.d("xap","dentro de coolmethod2 1");
     Log.d("xap","mensaje "+message);
-    callbackContext.success(message);
-    // PluginResult pr = new PluginResult(PluginResult.Status.OK);
-    // pr.setKeepCallback(true);
-    // callbackContext.sendPluginResult(pr);
-    //
+    // callbackContext.success(message);
+    PluginResult pr = new PluginResult(PluginResult.Status.OK);
+    pr.setKeepCallback(true);
+    callbackContext.sendPluginResult(pr);
+    
       // if (message != null && message.length() > 0) {
       //   Log.d("xap","va asuccess");
       //     callbackContext.success(message);

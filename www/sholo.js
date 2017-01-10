@@ -2,7 +2,7 @@ function Sholo() {
 }
 
 Sholo.prototype.coolMethod3 = function(arg0, success, error) {
-  console.log("en coolMethod3 1134", arg0);
+  console.log("en coolMethod3 1145", arg0);
   cordova.exec(success, error, "Sholo", "coolMethod2", [arg0]);
 };
 
